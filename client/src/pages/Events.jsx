@@ -1,5 +1,5 @@
-import React from 'react';
-import Publicnavbar from '../components/Publicnavbar';
+import React from "react";
+import Publicnavbar from "../components/Publicnavbar";
 
 function Events() {
   return (
@@ -9,4 +9,4 @@ function Events() {
   );
 }
 
-export default Events
+export default Events;

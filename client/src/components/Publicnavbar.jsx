@@ -5,7 +5,7 @@ function Publicnavbar() {
   return (
     <div className="navbar">
       <div className="logo-title">
-        <img src="./assets/logo.svg" alt="logo" />
+        <img src="./assets/logo.svg" alt="logo" width="400px"/>
       </div>
 
       <ul className="links">

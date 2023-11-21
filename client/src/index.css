@@ -8,9 +8,8 @@ body {
 }
 
 .logo-title {
-  
   display: flex;
-  width: 30%;
+  width: 40%;
   height: 100px;
 }
 .links {
@@ -23,23 +22,68 @@ body {
   border-bottom: brown;
 }
 .navbar {
+  width: 100%;
   display: flex;
   position: fixed;
   top: 0;
   z-index: 10;
-
 }
 .picture {
   width: 100%;
 }
-.title{
+.title {
   font-size: 2rem;
 }
-.s1p{
-  width:30%;
+.s1p {
+  width: 30%;
+}
+.imgS1 {
+  border-radius: 8px;
+  margin-right: 54%;
+  margin-top: 4%;
+  height: auto;
+}
+.slide1-container {
+  position: relative;
+}
+.s1part1 {
+  position: absolute;
+  top: 320px;
+  left: 50px;
+  color: white;
+}
+.titres1 {
+  font-size: 2rem;
+}
+.boutton1 {
+  align-items: center;
+  background-color: #e9b237;
+  background-image: none;
+  border: 0.125rem solid var(--kampina--color--secondary);
+  border-radius: 1.6875rem;
+  box-shadow: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  min-height: 3.125rem;
+  padding: 0.75rem 2.8125rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
 }
 
-.s1part1{
-
-
+.s1p{
+  width:600px;
+  font-size: large;
+}
+.s1title{
+  text-align: justify ;
+  font-size: 3rem;
+}
+.land-s1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 25px;
+  height: 250px;
 }

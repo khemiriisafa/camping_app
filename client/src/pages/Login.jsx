@@ -1,12 +1,12 @@
-import React from 'react';
-import Publicnavbar from '../components/Publicnavbar';
+import React from "react";
+import Publicnavbar from "../components/Publicnavbar";
 
 function Login() {
   return (
     <div>
-        <Publicnavbar/>
+      <Publicnavbar />
     </div>
-  )
+  );
 }
 
-export default Login
+export default Login;
