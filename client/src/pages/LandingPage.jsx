@@ -4,6 +4,10 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import LandingS1 from "../components/LandingS1";
 import HomeBtn from "../components/HomeBtn";
+import Carditem from "../components/Carditem";
+import { data } from "../icon-data";
+import LnadingS2 from "../components/LnadingS2";
+import LandingS3 from "../components/LandingS3";
 
 function LandingPage() {
   const options = {
@@ -16,7 +20,6 @@ function LandingPage() {
   return (
     <div>
       <Publicnavbar />
-
       <Splide aria-label="My Favorite Images" options={options}>
         <SplideSlide className="slide1-container">
           <img src="../assets/p1.webp" alt="Image 1" />
@@ -49,9 +52,9 @@ function LandingPage() {
           </div>
         </SplideSlide>
       </Splide>
-
       <LandingS1 />
-      
+      <LnadingS2 />
+      <LandingS3/>
     </div>
   );
 }

@@ -72,18 +72,68 @@ body {
   font-size: 1.2rem;
 }
 
-.s1p{
-  width:600px;
+.s1p {
+  width: 600px;
   font-size: large;
 }
-.s1title{
-  text-align: justify ;
+.s1title {
+  text-align: justify;
   font-size: 3rem;
 }
-.land-s1{
+.land-s1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 25px;
   height: 250px;
+}
+.c-item {
+  border: 0.5px solid rgb(200, 200, 200);
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-top: 4px;
+  border-radius: 35px;
+  margin-top: 4px;
+  padding: 30px 0 30px 30px;
+}
+.c-item h1 {
+  text-transform: capitalize;
+}
+.landing-s2-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 50px auto;
+}
+.S3card-container{
+  border: 15px solid green;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 600px;
+  margin-top: 4px; 
+}
+.S3-card{
+  
+  height: 300px;
+  width:250px;
+display: flex;
+flex-wrap: wrap;
+
+}
+.S3-bigcontainer{
+  border: 15px solid blue;
+  display: flex;
+}
+.S3pic{
+  height: 800px;
+  border-radius: 15px;
+}
+.S3-cadre{
+  border: 15px solid orange;
 }
