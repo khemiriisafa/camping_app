@@ -5,6 +5,7 @@ function Events() {
   return (
     <div>
       <Publicnavbar />
+      <h1>events</h1>
     </div>
   );
 }

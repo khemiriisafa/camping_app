@@ -8,7 +8,8 @@ import Carditem from "../components/Carditem";
 import { data } from "../icon-data";
 import LnadingS2 from "../components/LnadingS2";
 import LandingS3 from "../components/LandingS3";
-
+import LandingS4 from "../components/LandingS4";
+import Landingfooter from "../components/Landingfooter";
 function LandingPage() {
   const options = {
     type: "loop",
@@ -55,6 +56,8 @@ function LandingPage() {
       <LandingS1 />
       <LnadingS2 />
       <LandingS3/>
+      <LandingS4/>
+      <Landingfooter/>
     </div>
   );
 }

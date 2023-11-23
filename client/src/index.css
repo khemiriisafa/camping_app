@@ -108,32 +108,69 @@ body {
   width: 90%;
   margin: 50px auto;
 }
-.S3card-container{
-  border: 15px solid green;
-
+.S3card-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  width: 600px;
-  margin-top: 4px; 
+  width: 40%;
+  margin-top: 20px;
 }
-.S3-card{
-  
-  height: 300px;
-  width:250px;
-display: flex;
-flex-wrap: wrap;
-
-}
-.S3-bigcontainer{
-  border: 15px solid blue;
+.S3-bigcontainer {
   display: flex;
 }
-.S3pic{
+.S3pic {
   height: 800px;
   border-radius: 15px;
 }
-.S3-cadre{
-  border: 15px solid orange;
+.S3-cadre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.S3bigpart-1 {
+  height: 250px;
+  margin-left: 60px;
+  align-self: center;
+  padding-top: 20px;
+}
+.yellow-title {
+  color: #e9b237;
+  font-size: medium;
+}
+.s3bigp {
+  font-size: 2.5rem;
+}
+
+.S4bigT {
+  font-size: 3rem;
+}
+.S4part2 {
+  border: 1px black solid;
+  background-image: url("https://png.pngtree.com/background/20230519/original/pngtree-night-camping-nature-photography-starry-sky-campground-photography-picture-image_2650307.jpg");
+  height: 500px;
+  color:white;
+  text-align: center;
+  margin-top: 25px;
+}
+.footer1{
+  width:350px;
+  heigt:350px;
+}
+.footer2{
+  width:300px;
+  height: 350px;
+}
+.footer3{
+   width:300px;
+  height: 350px;
+}
+.footer-container{
+  width:100%;
+  height: 400px;
+  color:wheat;
+  display:flex;
+  justify-content: space-around;
+  background-color: black;
 }
