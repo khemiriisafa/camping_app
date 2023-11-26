@@ -8,9 +8,8 @@ body {
 }
 
 .logo-title {
-  
   display: flex;
-  width: 30%;
+  width: 40%;
   height: 100px;
 }
 .links {
@@ -23,23 +22,155 @@ body {
   border-bottom: brown;
 }
 .navbar {
+  width: 100%;
   display: flex;
   position: fixed;
   top: 0;
   z-index: 10;
-
 }
 .picture {
   width: 100%;
 }
-.title{
+.title {
   font-size: 2rem;
 }
-.s1p{
-  width:30%;
+.s1p {
+  width: 30%;
+}
+.imgS1 {
+  border-radius: 8px;
+  margin-right: 54%;
+  margin-top: 4%;
+  height: auto;
+}
+.slide1-container {
+  position: relative;
+}
+.s1part1 {
+  position: absolute;
+  top: 320px;
+  left: 50px;
+  color: white;
+}
+.titres1 {
+  font-size: 2rem;
+}
+.boutton1 {
+  align-items: center;
+  background-color: #e9b237;
+  background-image: none;
+  border: 0.125rem solid var(--kampina--color--secondary);
+  border-radius: 1.6875rem;
+  box-shadow: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  min-height: 3.125rem;
+  padding: 0.75rem 2.8125rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
 }
 
-.s1part1{
+.s1p {
+  width: 600px;
+  font-size: large;
+}
+.s1title {
+  text-align: justify;
+  font-size: 3rem;
+}
+.land-s1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 25px;
+  height: 250px;
+}
+.c-item {
+  border: 0.5px solid rgb(200, 200, 200);
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-top: 4px;
+  border-radius: 35px;
+  margin-top: 4px;
+  padding: 30px 0 30px 30px;
+}
+.c-item h1 {
+  text-transform: capitalize;
+}
+.landing-s2-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 50px auto;
+}
+.S3card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 40%;
+  margin-top: 20px;
+}
+.S3-bigcontainer {
+  display: flex;
+}
+.S3pic {
+  height: 800px;
+  border-radius: 15px;
+}
+.S3-cadre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.S3bigpart-1 {
+  height: 250px;
+  margin-left: 60px;
+  align-self: center;
+  padding-top: 20px;
+}
+.yellow-title {
+  color: #e9b237;
+  font-size: medium;
+}
+.s3bigp {
+  font-size: 2.5rem;
+}
 
-
+.S4bigT {
+  font-size: 3rem;
+}
+.S4part2 {
+  border: 1px black solid;
+  background-image: url("https://png.pngtree.com/background/20230519/original/pngtree-night-camping-nature-photography-starry-sky-campground-photography-picture-image_2650307.jpg");
+  height: 500px;
+  color:white;
+  text-align: center;
+  margin-top: 25px;
+}
+.footer1{
+  width:350px;
+  heigt:350px;
+}
+.footer2{
+  width:300px;
+  height: 350px;
+}
+.footer3{
+   width:300px;
+  height: 350px;
+}
+.footer-container{
+  width:100%;
+  height: 400px;
+  color:wheat;
+  display:flex;
+  justify-content: space-around;
+  background-color: black;
 }

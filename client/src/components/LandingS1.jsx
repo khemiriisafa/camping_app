@@ -1,25 +1,20 @@
-import React from 'react'
-import Button from "react-bootstrap/Button";
-
+import React from "react";
+//import Button from "react-bootstrap/Button";
 
 function LandingS1() {
   return (
     <div className="land-s1">
-      <img src="" alt="" />
-      <div className="s1part1">
-        <h1 className="title">connect with nature</h1>
-        <p className="s1p">
-          Camping in nature offers a host of benefits that rejuvenate the mind
-          and body. Being immersed in the outdoors provides a welcome break from
-          the demands of everyday life, allowing individuals to unwind and
-          recharge. The fresh air and natural surroundings contribute to
-          improved physical health, while the absence of modern distractions
-          fosters mental clarity and reduces stress.
-        </p>
-        <Button variant="outline-success">Success</Button>{" "}
-      </div>
+      <h1 className="s1title">WHY CHOOSE US</h1>
+      <img src="../assets/picS1.svg" alt="" width="100px" />
+      <p className="s1p">
+        In Kampina, we are committed to providing the best camp experience
+        possible. Our experienced staff, top-notch facilities, and exciting
+        activities ensure campers’ unforgettable time. From adventure-filled
+        days to nights spent under the stars, our camp offers a truly unique and
+        enriching experience for all. Choose us for an unforgettable adventure!
+      </p>
     </div>
   );
 }
 
-export default LandingS1
+export default LandingS1;

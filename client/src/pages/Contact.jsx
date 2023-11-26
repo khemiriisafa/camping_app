@@ -1,12 +1,12 @@
-import React from 'react';
-import Publicnavbar from '../components/Publicnavbar';
+import React from "react";
+import Publicnavbar from "../components/Publicnavbar";
 
 function Contact() {
   return (
     <div>
-        <Publicnavbar/>
+      <Publicnavbar />
     </div>
-  )
+  );
 }
 
-export default Contact
+export default Contact;
